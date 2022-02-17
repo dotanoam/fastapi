@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
+      - run: ls
       - uses: actions/upload-artifact@v2
         with:
           name: docs-zip
